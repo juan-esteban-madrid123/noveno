@@ -1,0 +1,56 @@
+.cuadradomanual1{
+	background-color:#969B92;
+	position:absolute;
+	left:0%;
+	height:12%;
+	width:120%;
+	top:0%;
+	opacity:100%;
+
+
+}
+
+
+
+.titulopagina1{
+	font-size:250%;
+	font-family:Arial;
+	margin-top:0.9%;
+	margin-left:40%;
+
+}
+
+.primer{
+	background-color:#0CD8E1;
+	position: relative;
+	left:10%;
+	top:90%;
+	height:1100%;
+	width:49.6%;
+	opacity:100%;
+	border: solid;
+}
+
+
+
+.segundo{
+	background-color:#93F942;
+	position: absolute;
+	left:60%;
+	top:90%;
+	height:850%;
+	width:49.6%;
+	opacity:100%;
+	border:solid;
+}
+
+.Letra2{
+	font-size:180%;
+	font-family:century Gothic;
+	margin-top:6%;
+	margin-left:10%;
+	color: black;
+	
+}
+
+

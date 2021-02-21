@@ -1,0 +1,97 @@
+.cuadradomanual1{
+	background-color:#969B92;
+	position:absolute;
+	left:0%;
+	height:12%;
+	width:150%;
+	top:0%;
+	opacity:100%;
+
+
+}
+
+
+
+.titulopagina1{
+	font-size:250%;
+	font-family:Arial;
+	margin-top:0.9%;
+	margin-left:40%;
+
+}
+
+.imagen
+{
+ left:  80%;
+ position:relative;
+ top: 10%;
+ border-radius: 100px;
+ border:solid;
+
+
+}
+
+.primer{
+	
+	position: relative;
+	left:10%;
+	top:70%;
+	height:800%;
+	width:70%;
+	opacity:100%;
+	border: solid;
+}
+
+
+
+.segundo{
+	background-color:#93F942;
+	position: absolute;
+	left:100%;
+	top:90%;
+	height:120%;
+	width:49.6%;
+	opacity:100%;
+	border:solid;
+}
+
+.Letra2{
+	font-size:180%;
+	font-family:century Gothic;
+	margin-top:6%;
+	margin-left:10%;
+	color: black;
+	
+}
+
+.imagen2
+{
+left:  0%;
+ position:absolute;
+ top: 30%;
+ height: 500%;
+border: solid;
+	
+}
+
+.imagen3
+{
+
+border: solid;
+
+
+
+}
+
+.imagen4
+{
+
+	border: solid;
+
+}
+
+.imagen5
+{
+border: solid;
+
+}

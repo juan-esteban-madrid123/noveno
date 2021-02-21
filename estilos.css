@@ -14,7 +14,7 @@
 	font-size:250%;
 	font-family:Arial;
 	margin-top:0.9%;
-	margin-left:30%;
+	margin-left:36%;
 
 }
 .primerP{
@@ -109,4 +109,55 @@
 	width:100%;
 	top:0%;
 	opacity:100%;
+	right: 10%;
 }
+
+.botonmanual{
+
+background-color: #FE5304;
+left: 8%;
+position: absolute;
+top: 60%
+height:5%;
+width: 40%;
+border-radius: 100px;
+border: solid;
+
+}
+
+.Letramanual{
+	font-size:170%;
+	font-family:Century Gothic;
+	margin-top:5%;
+	margin-left:2%;
+	color: black;
+}
+
+.boton
+
+{
+
+position: absolute;
+border-radius: 100px;
+top:25%;
+left: 10%
+height: 5%;
+border: solid;
+background-color: #93F942;
+
+	}
+
+
+.boton1
+
+{
+
+position: absolute;
+border-radius: 100px;
+top:50%;
+left: 10%
+height: 5%;
+border: solid;
+background-color: #93F942;
+
+	}
