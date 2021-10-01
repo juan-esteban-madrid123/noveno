@@ -78,16 +78,17 @@
 	margin-left:33%;
 	color: black;
 }
-.cuartoP{
-	background-color:red;
-	position:absolute;
-	left:49.6%;
-	top:34%;
-	height:21.5%;
-	width:50%;
-	opacity:100%;
-	color: black;
 
+	
+. cuartoP {
+  color de fondo : rojo;
+  posición : absoluta;
+  izquierda : 49,6 % ;
+  arriba : 50 % ;
+  altura : 25 % ;
+  ancho : 50 % ;
+  opacidad : 100 % ;
+  color : negro;}
 
 }
 .Letra4{
