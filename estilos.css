@@ -203,4 +203,36 @@ height: 5%;
 border: solid;
 background-color: #93F942;
 
-	}
+}
+
+
+.button4{
+border-radius: 100px;
+top:40%;
+left: 10%
+height: 5%;
+border: solid;
+position:absolute;
+background-color: #93F942;
+}
+
+.button5{
+border-radius: 100px;
+top:40%;
+left: 10%
+height: 5%;
+border: solid;
+position:absolute;
+background-color: #93F942;
+}
+
+.button6{
+border-radius: 100px;
+top:60%;
+left: 10%
+height: 5%;
+border: solid;
+position:absolute;
+background-color: #93F942;
+}
+
