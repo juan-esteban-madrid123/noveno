@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Actividad</title>
+	<link rel="stylesheet" type="text/css" href="act.css">
+</head>
+<body onkeypress="teclado()">
+<div class="ti" id="most">Las Frutas</div>
+<div class="tit" id="most1">Las Frutas</div>
+<div class="cu" id="c"></div>
+<div class="cu1" id="c1">Las frutas constituyen un grupo de alimentos indispensable para nuestra salud y bienestar, especialmente por su aporte de fibra, vitaminas y minerales y sustancias de acción antioxidante (vitamina C, Vitamina E, beta-caroteno, licopeno, luteína, flavonoides, antocianinas, etc.).<p>Junto con verduras y hortalizas, son casi fuente exclusiva de vitamina C. La gran diversidad de especies, con sus distintas propiedades organolépticas (aquellas que apreciamos mediante los sentidos, como el sabor, aroma, color, textura...) y la distinta forma de prepararlas hacen de ellas productos de gran aceptación por parte de los consumidores, sobre todo del sur de Europa.</p></div>
+<div class="cu2" id="c2"></div>
+<div class="pre1" id="most2">¿Que es?</div>
+<div class="pre2" id="most3">Datos</div>
+<div class="p1" id="tema1" onclick="inf2()">1</div>
+<div class="boto" id="bota">Leer más oprima A</div>
+<div class="cuadro" id="cua1">kjfdnsjdfsvnjdnapiwjdakdfhadsbfhdba</div>
+<div class="p2" id="tema2" onclick="inf3()">2</div>
+<div class="bot" id="bat">Leer más oprima D</div>
+<div class="cuadro1" id="cua2">545428849452687982133515487851212148</div>
+<div class="cl" id="cerrar" onclick="cerrar()">X</div>
+<script>
+	function inf2() {
+		most2.style.width=80+"%";
+		most2.style.height=90+"%";
+		tema1.style.opacity=0.5;
+		bota.style.width=10+"%";
+		bota.style.height=10+"%";
+	}
+	function inf3() {
+		most3.style.width=80+"%";
+		most3.style.height=90+"%";
+		tema2.style.opacity=0.5;
+		bat.style.width=10+"%";
+		bat.style.height=10+"%";
+	}
+	function cerrar() {
+		most2.style.width=0+"%";
+		most3.style.width=0+"%";
+		most2.style.height=0+"%";
+		most3.style.height=0+"%";
+		tema1.style.opacity=1;
+		tema2.style.opacity=1;
+		bota.style.width=0+"%";
+		bota.style.height=0+"%";
+		bat.style.width=0+"%";
+		bat.style.height=0+"%";
+		cua1.style.width=0+"%";
+		cua1.style.height=0+"%";
+		cua2.style.width=0+"%";
+		cua2.style.height=0+"%";
+	}
+	function teclado() {
+		console.log(event.type);
+		console.log(event.code);
+		if (event.code=="KeyA") 
+			{
+				cua1.style.width=80+"%";
+				cua1.style.height=90+"%";
+			}
+		if (event.code=="KeyD") 
+			{
+				cua2.style.width=80+"%";
+				cua2.style.height=90+"%";
+			}
+	}
+</script>
+</body>
+</html>

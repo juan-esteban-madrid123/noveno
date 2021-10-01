@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+	*{
+		background: gray;
+	}
+		.ing:hover{
+            background: white;
+            -ms-transform: scale(1,1.4); 
+  			transform: scale(1,1.4);
+
+		}
+		.a{
+			position: absolute;
+			height: 250px;
+			width: 400px;
+			background: lightpink;
+		}
+		.inp{
+			position: absolute;
+			width:300px ;
+			height: 40px;
+			top: 20px;
+			left: 2%;
+			font-size: 20px;
+		}
+		.inpu{
+			position: absolute;
+			width:300px ;
+			height: 40px;
+			top: 90px;
+			left: 2%;
+			font-size: 20px;
+		}
+		.ing{
+			position: absolute;
+			top: 150px;
+			background: purple;
+			height: 40px;
+			width: 280px;
+			left: 3%;
+			font-size: 40px;
+			box-sizing: border-box;
+			padding-left: 23px;
+		}
+		.menuu{
+			position: absolute;
+			top: 10px	;
+			left:500px ;
+			height: 700px;
+			width: 640px;
+			background: lightgreen;
+			font-size: 60px;
+			font-style: italic;
+			box-sizing: border-box;
+			padding-left: 30px;
+		}
+		.sonido{
+			z-index: 20;
+		}
+		}
+		.k{
+			position: absolute;
+			top: 540px;
+			left: 40px;
+			background: mediumaquamarine;
+			height: 60px;
+			width: 230px;
+			border: 2px solid black;
+			font-size: 45px;
+			z-index: 20;
+		}
+		.k:hover{
+         background: mediumpurple;
+         opacity: 0.6;
+
+		}
+	</style>
+	<meta charset="utf-8">
+	<title>Menú</title>
+</head>
+<body>
+<div class="a" id="agg"></div>
+<div class="ing" onclick="ingresar()">Guarde</div>
+<div class="k"><a  class="li" href="tarea2.html">2# actividad</a></div>
+<audio src="Grabación (2)-0.8-2.8.mp3" class="sonido" id="sonido"></audio>
+<div class="menuu" id="menu"></div>
+<form>
+	<input class="inp" id="nom" type="text" placeholder="Nombre del producto"></input>
+	<input class="inpu" id="pre" type="text" placeholder="Precio del producto"></input>
+</form>
+
+<script>
+	x=[];
+	function ingresar(){
+		sonido.play();
+		y=nom.value;
+		z=pre.value;
+		x.push(y,z)
+		n=y;
+		nombre=menu.innerHTML;
+		nombre=nombre+n;
+		menu.innerHTML=nombre+"<br>";
+		n=z;
+		nomb=menu.innerHTML;
+		nomb=nomb+n;
+		menu.innerHTML=nomb+"<br>";
+	}
+</script>
+</body>
+</html>
